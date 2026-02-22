@@ -1,0 +1,70 @@
+/* Genel Sayfa */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #111;
+}
+
+/* Ana Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Başlık */
+h1 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Panel Kartı */
+.panel {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  margin-top: 20px;
+}
+
+/* Input ve Select */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Sonuç Alanı */
+.results {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* Canvas */
+canvas {
+  width: 100% !important;
+  max-height: 400px;
+  margin-top: 20px;
+}
+
+/* Buton */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #111;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
